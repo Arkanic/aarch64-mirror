@@ -19,6 +19,11 @@ jobs:
       
       - name: build
         run: termux-apt-repo deb dist
+      
+      - name: mv
+        run: |
+          cd dist
+          mv termux/* .
         
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
