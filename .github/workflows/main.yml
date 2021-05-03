@@ -23,7 +23,7 @@ jobs:
       - name: mv
         run: |
           cd dists
-          cd termux .
+          cd termux
           mv * ../
           cd ../
           rm -rf termux
