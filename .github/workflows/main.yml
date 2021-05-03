@@ -18,7 +18,7 @@ jobs:
         run: pip3 install termux-apt-repo
       
       - name: build
-        run: termux-apt-repo deb dist
+        run: termux-apt-repo deb dists
       
       - name: mv
         run: |
