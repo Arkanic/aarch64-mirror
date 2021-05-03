@@ -23,7 +23,10 @@ jobs:
       - name: mv
         run: |
           cd dists
-          mv termux/* .
+          cd termux .
+          mv * ../
+          cd ../
+          rm -rf termux
         
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
