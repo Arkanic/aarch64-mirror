@@ -11,11 +11,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: Setup Python
-        uses: actions/setup-python@v2.2.2
-      
-      - name: install termux-apt-repo
-        run: pip3 install termux-apt-repo
+      - name: Build apt-repo
+        run: |
+          git clone https://github.com/Arkanic/apt-repo --depth=1
+          cd apt-repo
+          sudo make
+          cd ../
+          rm -rf apt-repp
       
       - name: build
         run: termux-apt-repo deb dists
