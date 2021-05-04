@@ -17,7 +17,7 @@ jobs:
           cd apt-repo
           sudo make
           cd ../
-          rm -rf apt-repp
+          rm -rf apt-repo
       
       - name: build
         run: termux-apt-repo deb dists
@@ -33,6 +33,10 @@ jobs:
           mv * ../
           cd ../
           rm -rf dists
+        
+        - name: clean
+          run: |
+            rm -rf deb
         
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
