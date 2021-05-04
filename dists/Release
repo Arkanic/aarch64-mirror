@@ -3,7 +3,7 @@ Version: 1
 Architectures: armhf
 Description: termux repository
 Suite: termux
-Date: Tue, 04 May 2021 04:19:28 UTC
+Date: Tue, 04 May 2021 04:21:27 UTC
 MD5Sum:
  2f6a00e2da6735c9038f23566de1da06 557 extras/binary-armhf/Packages
  a593c7d2c34997317dba6b42e020c36b 496 extras/binary-armhf/Packages.xz
