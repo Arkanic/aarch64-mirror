@@ -20,19 +20,7 @@ jobs:
           rm -rf apt-repo
       
       - name: build
-        run: termux-apt-repo deb dists
-      
-      - name: mv
-        run: |
-          cd dists/dists
-          ls
-          cd termux
-          mv * ../
-          cd ../
-          rm -rf termux
-          mv * ../
-          cd ../
-          rm -rf dists
+        run: termux-apt-repo deb dist
         
       - name: clean
         run: |
@@ -42,4 +30,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dists
+          publish_dir: .
