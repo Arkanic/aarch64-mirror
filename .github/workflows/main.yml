@@ -34,9 +34,9 @@ jobs:
           cd ../
           rm -rf dists
         
-        - name: clean
-          run: |
-            rm -rf deb
+      - name: clean
+        run: |
+          rm -rf deb
         
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
