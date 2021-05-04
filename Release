@@ -1,0 +1,26 @@
+Codename: apt
+Version: 1
+Architectures: armhf
+Description: apt repository
+Suite: apt
+Date: Tue, 04 May 2021 04:26:16 UTC
+MD5Sum:
+ 0ffdc06b88c63cb3662a8fdf12f43e1e 554 extras/binary-armhf/Packages
+ a590440bab79b21a49feeb0e7a75fb80 488 extras/binary-armhf/Packages.xz
+ 0dd94ab90d38f405bed6712fe73c4abb 90 extras/Contents-armhf
+ 70a70bef1cde739ee8ceb2c29918d9d7 88 extras/Contents-armhf.xz
+SHA1:
+ 077a0a084d51173826406b6d2a200164bf921887 554 extras/binary-armhf/Packages
+ 4c35d4c44d37a2a5d904c3819d68271109d12c1d 488 extras/binary-armhf/Packages.xz
+ 6c1c5ffeda3ef27e0cc31cdb2197ccf3a1cddce6 90 extras/Contents-armhf
+ 475b6e6e58e102c4cfade78a10b7a1e15b8691fb 88 extras/Contents-armhf.xz
+SHA256:
+ 5608d3d262c6264eac389abea7ea364188d2b5df89fff0b1e0948e7515570c36 554 extras/binary-armhf/Packages
+ 08fd79aadba50b87e75ed6933f4773311fe76ee81fd9aceb75e5c0d7fe90cc5a 488 extras/binary-armhf/Packages.xz
+ c00e39dcb8f93a663d6d6af119bf82c5482c8b892d1dce2dd73d8bb1f13ec2a4 90 extras/Contents-armhf
+ 3053bd74b4964c90b2b63977753fb3040a28be30696b0e46610c1b3270749cf9 88 extras/Contents-armhf.xz
+SHA512:
+ e3aff8148c7773d776db64c58f334f0f919864c25729fa15a4b1d8ae28b5117aba79519f75cac7a66b51f4ac62a14177aa665da354dc07340eeccfa9046895dc 554 extras/binary-armhf/Packages
+ b55adb3bbbc829ac6dbcc63356e5d141f6db335cf2ae1afe68d10a6fedc34ab611391c0da8cf15109bbc28359699e4c99417e6088bbadea8f8003a6db5ca968e 488 extras/binary-armhf/Packages.xz
+ 05201b7811bbefac75e8bb81d9a78cbe6d8fbebeb8e6aa0660ff38330a33c3f7b35a863c5b5e6a23b6f91d9b52755269a6d45870ab3dde6f7d26224c80cfde75 90 extras/Contents-armhf
+ ac250bd93f743c02c2fa01e54b478ba24d8b697a09cc00edf03df21630c081435f75e2d475f1716ca0c9150d1d6e552f4cf3d81303c684ae059e079d77d46b53 88 extras/Contents-armhf.xz

@@ -3,7 +3,7 @@ Version: 1.4.7.2
 Architecture: armhf
 Maintainer: Arkanic <silverfishasaurus@gmail.com>
 Description: Magi (XMG) GUI Wallet. https://github.com/m-pays/magi
-Filename: dists/termux/extras/binary-armhf/m-wallet_1.4.7.2-1_armhf.deb
+Filename: dists/apt/extras/binary-armhf/m-wallet_1.4.7.2-1_armhf.deb
 Size: 2865524
 MD5Sum: a504bc9249214c99b35592f29ad65320
 SHA1: 22026c9c3378e0236ff4b85a1d51a35accd2cc5e
